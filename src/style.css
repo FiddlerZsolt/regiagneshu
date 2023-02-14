@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@100;300;400;600;900&display=swap');
+
+:root {
+  --bg: rgb(166, 145, 195);
+  --txt: rgb(46, 52, 64);
+
+  --link: rgb(236, 239, 244);
+  --hovered-link: rgb(201, 216, 242);
+  --muted-link: rgb(216, 222, 233);
+  
+  --muted: rgb(216, 222, 233);
+  --light: rgb(236, 239, 244);
+  --dark: rgb(93, 98, 105);
+
+  --note-bg: rgb(237, 238, 217);
+  --note-horizontal-line: rgb(145, 152, 229);
+  --note-vertical-line: rgb(255, 192, 203);
+
+  --red: rgb(191, 97, 106);
+  --green: rgb(163, 190, 140);
+  --yellow: rgb(235, 203, 139);
+  --purple: rgb(180, 142, 173);
+  --orange: rgb(208, 135, 112);
+  --blue: rgb(94, 129, 172);
+
+  --montserrat: 'Montserrat', sans-serif;
+  --hand: 'Caveat', cursive;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: rgb(46, 52, 64);
+    --txt: rgb(236, 239, 244);
+
+    --link: rgb(143, 188, 187);
+    --hovered-link: #81A1C1;
+    --muted-link: rgb(167, 181, 181);
+
+    --muted-link: rgb(86, 103, 120);
+    
+    --muted: rgb(76, 86, 106);
+  }
+}
+
